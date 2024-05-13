@@ -2,20 +2,20 @@
 
 # Copyright (c) 2015-2016 CoNWeT Lab., Universidad Politécnica de Madrid
 
-# This file is part of CKAN Data Requests Extension.
+# This file is part of CKAN ร้องขอชุดข้อมูล Extension.
 
-# CKAN Data Requests Extension is free software: you can redistribute it and/or
+# CKAN ร้องขอชุดข้อมูล Extension is free software: you can redistribute it and/or
 # modify it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 
-# CKAN Data Requests Extension is distributed in the hope that it will be useful,
+# CKAN ร้องขอชุดข้อมูล Extension is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU Affero General Public License for more details.
 
 # You should have received a copy of the GNU Affero General Public License
-# along with CKAN Data Requests Extension. If not, see <http://www.gnu.org/licenses/>.
+# along with CKAN ร้องขอชุดข้อมูล Extension. If not, see <http://www.gnu.org/licenses/>.
 
 import ckanext.datarequests.constants as constants
 import ckanext.datarequests.controllers.ui_controller as controller
@@ -448,7 +448,7 @@ class UIControllerTest(unittest.TestCase):
         # Assertions
         expected_data_req = {'organization_id': organization_name, 'limit': 10, 'offset': 0, 'sort': 'desc'}
         controller.tk.check_access.assert_called_once_with(constants.LIST_DATAREQUESTS, self.expected_context, expected_data_req)
-        controller.tk.abort.assert_called_once_with(403, 'Unauthorized to list Data Requests')
+        controller.tk.abort.assert_called_once_with(403, 'Unauthorized to list ร้องขอชุดข้อมูล')
         self.assertEquals(0, controller.tk.get_action.call_count)
         self.assertEquals(0, controller.tk.render.call_count)
         self.assertIsNone(result)

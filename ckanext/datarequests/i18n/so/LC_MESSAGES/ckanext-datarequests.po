@@ -142,7 +142,7 @@ msgid "\"page\" parameter must be an integer"
 msgstr "Calaamadaha boga waa inuu noqdaa mid isku dhafan"
 
 #: ckanext/datarequests/controllers/ui_controller.py:159
-msgid "Unauthorized to list Data Requests"
+msgid "Unauthorized to list ร้องขอชุดข้อมูล"
 msgstr "Aan la fasaxin in lagu qoro codsiga xogta"
 
 #: ckanext/datarequests/controllers/ui_controller.py:210
@@ -238,7 +238,7 @@ msgstr "Kooxo"
 #: ckanext/datarequests/templates/header.html:8
 #: ckanext/datarequests/templates/organization/read_base.html:6
 #: ckanext/datarequests/templates/user/read_base.html:6
-msgid "Data Requests"
+msgid "ร้องขอชุดข้อมูล"
 msgstr "Xog codsiyeed"
 
 #: ckanext/datarequests/templates/header.html:9
@@ -248,7 +248,7 @@ msgstr "Kusaabsan"
 
 #: ckanext/datarequests/templates/datarequests/base.html:20
 msgid ""
-"Data Requests allow users to ask for data that is not published in the "
+"ร้องขอชุดข้อมูล allow users to ask for data that is not published in the "
 "platform yet. If you want some specific data and you are not able to find"
 " it among all the published datasets, you can create a new data request "
 "specifying the data than you want to get."
@@ -284,7 +284,7 @@ msgstr "Ku dar codsi xoggeed"
 #: ckanext/datarequests/templates/datarequests/index.html:12
 #: ckanext/datarequests/templates/organization/datarequests.html:13
 #: ckanext/datarequests/templates/user/datarequests.html:9
-msgid "Search Data Requests..."
+msgid "Search ร้องขอชุดข้อมูล..."
 msgstr "Raadinta xog codsiyeed"
 
 #: ckanext/datarequests/templates/datarequests/new.html:3
@@ -417,11 +417,11 @@ msgid "Delete"
 msgstr "Tirtir"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_list.html:1
-msgid "No Data Requests found"
+msgid "No ร้องขอชุดข้อมูล found"
 msgstr "Wax la helay oo xog codsiyeed ah majiraan"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_list.html:14
-msgid "No Data Requests found with the given criteria"
+msgid "No ร้องขอชุดข้อมูล found with the given criteria"
 msgstr "Shuruudaha labixiyay laguma helin xog codsiyeed"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_list.html:16
@@ -473,7 +473,7 @@ msgid "data request"
 msgstr "xog codsiyeed"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:34
-msgid "data requests"
+msgid "ร้องขอชุดข้อมูล"
 msgstr "xog codsiyeydyo"
 
 #: ckanext/datarequests/templates/organization/read_base.html:5
@@ -483,21 +483,21 @@ msgstr "Socodka hawlaha"
 
 #: ckanext/datarequests/templates/snippets/custom_search_form.html:6
 msgid "{number} data request found for \"{query}\""
-msgid_plural "{number} data requests found for \"{query}\""
+msgid_plural "{number} ร้องขอชุดข้อมูล found for \"{query}\""
 msgstr[0] "{number} xog codsiyeedka la helay  \"{query}\""
 msgstr[1] "{number} xog codsiyeedyo la helay \"{query}\""
 
 #: ckanext/datarequests/templates/snippets/custom_search_form.html:7
-msgid "No data requests found for \"{query}\""
+msgid "No ร้องขอชุดข้อมูล found for \"{query}\""
 msgstr "Wax xoggag codsiyeed ah lama helin \"{query}\""
 
 #: ckanext/datarequests/templates/snippets/custom_search_form.html:8
 msgid "{number} data request found"
-msgid_plural "{number} data requests found"
+msgid_plural "{number} ร้องขอชุดข้อมูล found"
 msgstr[0] "{number} xog codsiyeed lahelay"
 msgstr[1] "{number} xoggag codsiyeed la helay"
 
 #: ckanext/datarequests/templates/snippets/custom_search_form.html:9
-msgid "No data requests found"
+msgid "No ร้องขอชุดข้อมูล found"
 msgstr "Lama helin wax xoggag codsiyeed ah"
 

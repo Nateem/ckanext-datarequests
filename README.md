@@ -1,4 +1,4 @@
-# CKAN Data Requests [![Build Status](https://travis-ci.org/conwetlab/ckanext-datarequests.svg?branch=develop)](https://travis-ci.org/conwetlab/ckanext-datarequests) [![Coverage Status](https://coveralls.io/repos/github/conwetlab/ckanext-datarequests/badge.svg?branch=develop)](https://coveralls.io/github/conwetlab/ckanext-datarequests?branch=develop)
+# CKAN ร้องขอชุดข้อมูล [![Build Status](https://travis-ci.org/conwetlab/ckanext-datarequests.svg?branch=develop)](https://travis-ci.org/conwetlab/ckanext-datarequests) [![Coverage Status](https://coveralls.io/repos/github/conwetlab/ckanext-datarequests/badge.svg?branch=develop)](https://coveralls.io/github/conwetlab/ckanext-datarequests?branch=develop)
 
 CKAN extension that allows users to ask for datasets that are not already published in the CKAN instance. In this way we can set up a Data Market, not only with data supplies but also with data demands.
 
@@ -7,7 +7,7 @@ CKAN extension that allows users to ask for datasets that are not already publis
 You have two ways for creating, updating, deleting, viewing and closing a datarequest: you can use the graphical interface or the programatic API.
 
 ### User Interface
-If you prefer to use the graphical interface, you should click on the "Data Requests" section that will appear in the header of your CKAN instance. In this section you'll be able to view the current data requests. In addition, there will be a button that will allow you to create a new data request. In the form that will appear, you will have to introduce the following information:
+If you prefer to use the graphical interface, you should click on the "ร้องขอชุดข้อมูล" section that will appear in the header of your CKAN instance. In this section you'll be able to view the current ร้องขอชุดข้อมูล. In addition, there will be a button that will allow you to create a new data request. In the form that will appear, you will have to introduce the following information:
 
 * **Title**: a title for your data request
 * **Description**: a long description for your data request. You should include as much details as you can in order to allow others to understand you needs and upload a dataset that fulfil your requeriments.
@@ -67,19 +67,19 @@ A dict with the data request (`id`, `user_id`, `title`, `description`,`organizat
 
 
 #### `list_datarequests(context, data_dict)`
-Returns a list with the existing data requests. Rights access will be checked before returning the results. If the user is not allowed, a `NotAuthorized` exception will be risen
+Returns a list with the existing ร้องขอชุดข้อมูล. Rights access will be checked before returning the results. If the user is not allowed, a `NotAuthorized` exception will be risen
 
 ##### Parameters (included in `data_dict`):
 * **`organization_id`** (string) (optional): to filter the result by organization
 * **`user_id`** (string) (optional): to filter the result by user
 * **`closed`** (string) (optional): to filter the result by state (`True`: Closed, `False`: Open)
 * **`offset`** (int) (optional) (default `0`): the first element to be returned
-* **`limit`** (int) (optional) (default `10`): The max number of data requests to be returned
+* **`limit`** (int) (optional) (default `10`): The max number of ร้องขอชุดข้อมูล to be returned
 * **`q`** (string) (optional): to filter the result using a free-text.
-* **`sort`** (string) (optional) (default `asc`): `desc` to order data requests in a descending way. `asc` to order data requests in an ascending way.
+* **`sort`** (string) (optional) (default `asc`): `desc` to order ร้องขอชุดข้อมูล in a descending way. `asc` to order ร้องขอชุดข้อมูล in an ascending way.
 
 ##### Returns:
-A dict with three fields: `result` (a list of data requests), `facets` (a list of the facets that can be used) and `count` (the total number of existing data requests)
+A dict with three fields: `result` (a list of ร้องขอชุดข้อมูล), `facets` (a list of the facets that can be used) and `count` (the total number of existing ร้องขอชุดข้อมูล)
 
 
 #### `delete_datarequest(context, data_dict)`
@@ -203,7 +203,7 @@ ckan.plugins = datarequests <OTHER_PLUGINS>
 ```
 ckan.datarequests.comments = [true|false]
 ```
-* Enable or disable a badge to show the number of data requests in the menu by setting up the `ckan.datarequests.show_datarequests_badge` property in the configuration file (by default, the badge is not shown).
+* Enable or disable a badge to show the number of ร้องขอชุดข้อมูล in the menu by setting up the `ckan.datarequests.show_datarequests_badge` property in the configuration file (by default, the badge is not shown).
 ```
 ckan.datarequests.show_datarequests_badge = [true|false]
 ```
@@ -215,7 +215,7 @@ sudo service apache2 restart
 
 ## Translations
 
-Help us to translate this extension so everyone can create data requests. Currently, the extension is translated to English, Spanish, German and Brazilian Portuguese. If you want to contribute with your translation, the first step is to clone this repo and move to the `develop` branch. Then, create the locale for your translation by executing:
+Help us to translate this extension so everyone can create ร้องขอชุดข้อมูล. Currently, the extension is translated to English, Spanish, German and Brazilian Portuguese. If you want to contribute with your translation, the first step is to clone this repo and move to the `develop` branch. Then, create the locale for your translation by executing:
 
 ```
 python setup.py init_catalog -l <YOUR_LOCALE>
@@ -255,7 +255,7 @@ python setup.py nosetests
 
 ### v1.0.0
 
-* New: Option to follow data requests.
+* New: Option to follow ร้องขอชุดข้อมูล.
 * New: Email notifications:
   * An email will be sent to organization staff when a data request is created in a organization.
   * An email will be sent to followers, people that commented, datarequest creator and organization staff when a comment in a datarequest is created.

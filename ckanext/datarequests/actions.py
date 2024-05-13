@@ -2,20 +2,20 @@
 
 # Copyright (c) 2015-2016 CoNWeT Lab., Universidad Politécnica de Madrid
 
-# This file is part of CKAN Data Requests Extension.
+# This file is part of CKAN ร้องขอชุดข้อมูล Extension.
 
-# CKAN Data Requests Extension is free software: you can redistribute it and/or
+# CKAN ร้องขอชุดข้อมูล Extension is free software: you can redistribute it and/or
 # modify it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 
-# CKAN Data Requests Extension is distributed in the hope that it will be useful,
+# CKAN ร้องขอชุดข้อมูล Extension is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU Affero General Public License for more details.
 
 # You should have received a copy of the GNU Affero General Public License
-# along with CKAN Data Requests Extension. If not, see <http://www.gnu.org/licenses/>.
+# along with CKAN ร้องขอชุดข้อมูล Extension. If not, see <http://www.gnu.org/licenses/>.
 
 
 import ckan.lib.base as base
@@ -333,7 +333,7 @@ def update_datarequest(context, data_dict):
 
 def list_datarequests(context, data_dict):
     '''
-    Returns a list with the existing data requests. Rights access will be
+    Returns a list with the existing ร้องขอชุดข้อมูล. Rights access will be
     checked before returning the results. If the user is not allowed, a
     NotAuthorized exception will be risen.
 
@@ -354,22 +354,22 @@ def list_datarequests(context, data_dict):
     :type q: string
 
     :param sort: This parameter is optional and allows users to sort
-        data requests. You can choose 'desc' for retrieving data requests
-        in descending order or 'asc' for retrieving data requests in
-        ascending order. Data Requests are returned in ascending order
+        ร้องขอชุดข้อมูล. You can choose 'desc' for retrieving ร้องขอชุดข้อมูล
+        in descending order or 'asc' for retrieving ร้องขอชุดข้อมูล in
+        ascending order. ร้องขอชุดข้อมูล are returned in ascending order
         by default.
     :type sort: string
 
     :param offset: The first element to be returned (0 by default)
     :type offset: int
 
-    :param limit: The max number of data requests to be returned (10 by
+    :param limit: The max number of ร้องขอชุดข้อมูล to be returned (10 by
         default)
     :type limit: int
 
-    :returns: A dict with three fields: result (a list of data requests),
+    :returns: A dict with three fields: result (a list of ร้องขอชุดข้อมูล),
         facets (a list of the facets that can be used) and count (the total
-        number of existing data requests)
+        number of existing ร้องขอชุดข้อมูล)
     :rtype: dict
     '''
 
@@ -400,7 +400,7 @@ def list_datarequests(context, data_dict):
     # Free text filter
     q = data_dict.get('q', None)
 
-    # Sort. By default, data requests are returned in the order they are created
+    # Sort. By default, ร้องขอชุดข้อมูล are returned in the order they are created
     # This is something new in version 0.3.0. In previous versions, requests were
     # returned in inverse order
     desc = False
