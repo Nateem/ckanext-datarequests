@@ -1,4 +1,4 @@
-# Thai translations for ckanext-datarequests.
+# Somali translations for ckanext-datarequests.
 # Copyright (C) 2016 ORGANIZATION
 # This file is distributed under the same license as the
 # ckanext-datarequests
@@ -10,144 +10,144 @@ msgstr ""
 "Project-Id-Version: ckanext-datarequests 0.3.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2016-04-28 14:45+0200\n"
-"PO-Revision-Date: 2024-05-14 13:03+0700\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: th\n"
-"Language-Team: th <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"PO-Revision-Date: 2018-02-02 16:05+0300\n"
+"Last-Translator: DATASCIENCE LTD info@datascience.co.ke\n"
+"Language: so\n"
+"Language-Team: so <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ckanext/datarequests/actions.py:192 ckanext/datarequests/actions.py:244
 #: ckanext/datarequests/actions.py:435 ckanext/datarequests/actions.py:480
 #: ckanext/datarequests/actions.py:536 ckanext/datarequests/actions.py:624
 msgid "Data Request ID has not been included"
-msgstr "รหัสของการร้องขอชุดข้อมูลยังไม่มีการนำเข้า"
+msgstr "Aqoonsiga Codsiyada macluumaadka laguma soo darin"
 
 #: ckanext/datarequests/actions.py:203 ckanext/datarequests/actions.py:255
 #: ckanext/datarequests/actions.py:446 ckanext/datarequests/actions.py:491
 #, python-format
 msgid "Data Request %s not found in the data base"
-msgstr "ร้องขอชุดข้อมูล %s ไม่พบในฐานข้อมูล"
+msgstr "Codsiga xokta %s aan laga helin diiwaanka"
 
 #: ckanext/datarequests/actions.py:500
 msgid "This Data Request is already closed"
-msgstr "ร้องขอชุดข้อมูล ชุดนี้ได้ปิดไปแล้ว"
+msgstr "Codsigan xoktani hore ayaa loo xiray"
 
 #: ckanext/datarequests/actions.py:578 ckanext/datarequests/actions.py:671
 #: ckanext/datarequests/actions.py:717
 msgid "Comment ID has not been included"
-msgstr "ไม่พบการแสดงความคิดเห็นนี้"
+msgstr "Aqoonsiga faallooyinka lama soo darin"
 
 #: ckanext/datarequests/actions.py:589 ckanext/datarequests/actions.py:682
 #: ckanext/datarequests/actions.py:728
 #, python-format
 msgid "Comment %s not found in the data base"
-msgstr "การแสดงความคิดเห็น %s ไม่พบในฐานข้อมูล"
+msgstr "Faallooyinka %s lagama helin saldhigga xogta"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_form.html:17
 #: ckanext/datarequests/validator.py:31 ckanext/datarequests/validator.py:34
 #: ckanext/datarequests/validator.py:41
 msgid "Title"
-msgstr "หัวข้อ"
+msgstr "Ciwaan"
 
 #: ckanext/datarequests/validator.py:31
 #, python-format
 msgid "Title must be a maximum of %d characters long"
-msgstr "หัวข้อ มีความยาวตัวอักษรสุงสุดที่ %d ตัวอักษร"
+msgstr "Cinwaanka waa inuu ahaado ugu badnaan %d tiro ahaan"
 
 #: ckanext/datarequests/validator.py:34
 msgid "Title cannot be empty"
-msgstr "หัวข้อ ไม่สามารถเป็นค่าว่าง"
+msgstr "Ciwaaku ma noqon karo mid madhan"
 
 #: ckanext/datarequests/validator.py:41
 msgid "That title is already in use"
-msgstr "หัวข้อนี้ถูกใช้แล้ว"
+msgstr "Ciwaakani waala isticmaalayaa"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_form.html:21
 #: ckanext/datarequests/validator.py:45
 msgid "Description"
-msgstr "รายละเอียด"
+msgstr "Sharaxaad"
 
 #: ckanext/datarequests/validator.py:45
 #, python-format
 msgid "Description must be a maximum of %d characters long"
-msgstr "รายละเอียด มีความยาวตัวอักษรสุงสุดที่ %d ตัวอักษร"
+msgstr "Sharaxaadu waa inay ahaataa ugu badnaan %d ka tiro ayaah"
 
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:11
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_form.html:25
 #: ckanext/datarequests/validator.py:52
 msgid "Organization"
-msgstr "หน่วยงาน"
+msgstr "Hay’ad"
 
 #: ckanext/datarequests/validator.py:52
 msgid "Organization is not valid"
-msgstr "หน่วยงาน ไม่ถูกต้อง"
+msgstr "Hay’adu ansax ma’aha"
 
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:24
 #: ckanext/datarequests/validator.py:65
 msgid "Accepted Dataset"
-msgstr "ได้รับการยอมรับขุดข้อมูล"
+msgstr "Xokta la oggolaaday"
 
 #: ckanext/datarequests/validator.py:65
 msgid "Dataset not found"
-msgstr "ไม่พบชุดข้อมูล"
+msgstr "Xokta aan lahelin"
 
 #: ckanext/datarequests/templates/datarequests/base.html:17
 #: ckanext/datarequests/templates/datarequests/show.html:25
 #: ckanext/datarequests/validator.py:75
 msgid "Data Request"
-msgstr "ร้องขอชุดข้อมูล"
+msgstr "Codsashada xokta"
 
 #: ckanext/datarequests/validator.py:75
 msgid "Data Request not found"
-msgstr "ไม่พบ ร้องขอชุดข้อมูล"
+msgstr "Xokta la codsaday lama helin"
 
 #: ckanext/datarequests/validator.py:78 ckanext/datarequests/validator.py:81
 msgid "Comment"
-msgstr "ความคิดเห็น"
+msgstr "Faallo"
 
 #: ckanext/datarequests/validator.py:78
 msgid "Comments must be a minimum of 1 character long"
-msgstr "ความคิดเห็น มีความยาวตัวอักษรขั้นต่ำ 1 ตัวอักษร"
+msgstr "Faalooyinka waa iney ahaataa oogu yaraan 1 dabaqat oo dheer"
 
 #: ckanext/datarequests/validator.py:81
 #, python-format
 msgid "Comments must be a maximum of %d characters long"
-msgstr "ความคิดเห็น มีความยาวตัวอักษรสุงสุดที่ %d ตัวอักษร"
+msgstr "Faalooyinka waa inay ahaataa ugu badnaan %d dabaq oo dheer"
 
 #: ckanext/datarequests/controllers/ui_controller.py:129
 msgid "Newest"
-msgstr "ใหม่กว่า"
+msgstr "Oogu dambeeyay/cusub"
 
 #: ckanext/datarequests/controllers/ui_controller.py:129
 msgid "Oldest"
-msgstr "เก่ากว่า"
+msgstr "Oogu da’da weyn/oogu horeeyay"
 
 #: ckanext/datarequests/controllers/ui_controller.py:145
 #: ckanext/datarequests/tests/test_ui_controller.py:628
 msgid "State"
-msgstr "สถานะ"
+msgstr "Gobol"
 
 #: ckanext/datarequests/controllers/ui_controller.py:150
 #: ckanext/datarequests/templates/header.html:6
 #: ckanext/datarequests/tests/test_ui_controller.py:630
 msgid "Organizations"
-msgstr "หน่วยงาน"
+msgstr "Hay’ado"
 
 #: ckanext/datarequests/controllers/ui_controller.py:156
 msgid "\"page\" parameter must be an integer"
-msgstr "\"page\" พารามิเตอร์ต้องเป็นจำนวนเต็ม"
+msgstr "Calaamadaha boga waa inuu noqdaa mid isku dhafan"
 
 #: ckanext/datarequests/controllers/ui_controller.py:159
 msgid "Unauthorized to list Data Requests"
-msgstr "ไม่ได้รับอนุญาตให้ แสดง รายการ ร้องขอชุดข้อมูล"
+msgstr "Aan la fasaxin in lagu qoro codsiga xogta"
 
 #: ckanext/datarequests/controllers/ui_controller.py:210
 msgid "Unauthorized to create a Data Request"
-msgstr "ไม่ได้รับอนุญาตให้ เพิ่ม รายการ ร้องขอชุดข้อมูล"
+msgstr "Aan loo ogolaan in la sameeyo codsi xoggeed"
 
 #: ckanext/datarequests/controllers/ui_controller.py:225
 #: ckanext/datarequests/controllers/ui_controller.py:248
@@ -156,78 +156,78 @@ msgstr "ไม่ได้รับอนุญาตให้ เพิ่ม �
 #: ckanext/datarequests/controllers/ui_controller.py:401
 #, python-format
 msgid "Data Request %s not found"
-msgstr "ไม่พบ %s ในร้องขอชุดข้อมูล"
+msgstr "Xog codsiyeed %s aan la helin"
 
 #: ckanext/datarequests/controllers/ui_controller.py:228
 #, python-format
 msgid "You are not authorized to view the Data Request %s"
-msgstr "คุณไม่ได้รับอนุญาตให้ดู ร้องขอชุดข้อมูล %s"
+msgstr "Laguuma ogala inaad aragto codsiga xogta %s"
 
 #: ckanext/datarequests/controllers/ui_controller.py:251
 #, python-format
 msgid "You are not authorized to update the Data Request %s"
-msgstr "คุณไม่ได้รับอนุญาตให้แก้ไข ร้องขอชุดข้อมูล %s "
+msgstr "Laguuma ogola inaad cusboonaysiisi codsiga xogta %s"
 
 #: ckanext/datarequests/controllers/ui_controller.py:261
 #: ckanext/datarequests/tests/test_ui_controller.py:672
 #, python-format
 msgid "Data Request %s has been deleted"
-msgstr "ร้องขอชุดข้อมูล %s ถูกลบแล้ว"
+msgstr "Xogta la codsaday %s waa la tirtiray"
 
 #: ckanext/datarequests/controllers/ui_controller.py:268
 #, python-format
 msgid "You are not authorized to delete the Data Request %s"
-msgstr "คุณไม่ได้รับอนุญาตให้ลบ ร้องขอชุดข้อมูล %s"
+msgstr "Laguuma ogola in aad tirtirto xogta la codsaday %s"
 
 #: ckanext/datarequests/controllers/ui_controller.py:316
 msgid "This data request is already closed"
-msgstr "ร้องขอชุดข้อมูล นี้ถูกปิดแล้ว"
+msgstr "Xogtan la codsaday wey xirantahay"
 
 #: ckanext/datarequests/controllers/ui_controller.py:337
 #, python-format
 msgid "You are not authorized to close the Data Request %s"
-msgstr "คุณไม่ได้รับอนุญาตให้ปิด ร้องขอชุดข้อมูล %s"
+msgstr "Laguuma ogola in aad xidho codsiga xogtani %s"
 
 #: ckanext/datarequests/controllers/ui_controller.py:366
 msgid "Comment has been published"
-msgstr "ความคิดเห็นนี้ถูกเผยแพร่"
+msgstr "Faallo ayaa la daabacay"
 
 #: ckanext/datarequests/controllers/ui_controller.py:368
 msgid "Comment has been updated"
-msgstr "ความคิดเห็นนี้ถูกแก้ไข"
+msgstr "Faallo ayaa la cusbooneysiiyey"
 
 #: ckanext/datarequests/controllers/ui_controller.py:374
 #, python-format
 msgid "You are not authorized to %s"
-msgstr "คุณไม่ได้รับอนุญาต %s"
+msgstr "Laguma ogola %s"
 
 #: ckanext/datarequests/controllers/ui_controller.py:405
 #, python-format
 msgid "You are not authorized to list the comments of the Data Request %s"
-msgstr "คุณไม่ได้รับอนุญาตแสดงรายการ ร้องขอชุดข้อมูล %s"
+msgstr "Laguuma ogola in aad qorto faallooyinka codsiga xogta %s"
 
 #: ckanext/datarequests/controllers/ui_controller.py:414
 msgid "Comment has been deleted"
-msgstr "ความคิดเห็นถูกลบ"
+msgstr "Faallada waa la tirtirey"
 
 #: ckanext/datarequests/controllers/ui_controller.py:419
 #, python-format
 msgid "Comment %s not found"
-msgstr "ไม่พบ ความคิดเห็น %s"
+msgstr "Faallada %s lama helin"
 
 #: ckanext/datarequests/controllers/ui_controller.py:422
 msgid "You are not authorized to delete this comment"
-msgstr "คุณไม่ได้รับอนุญาต ให้ลบ ความคิดเห็นนี้"
+msgstr "Laguuma ogolaan in aad faalladan tirtirto"
 
 #: ckanext/datarequests/templates/header.html:5
 #: ckanext/datarequests/templates/organization/read_base.html:4
 #: ckanext/datarequests/templates/user/read_base.html:4
 msgid "Datasets"
-msgstr "ชุดข้อมูล"
+msgstr "Bandhig xogeed"
 
 #: ckanext/datarequests/templates/header.html:7
 msgid "Groups"
-msgstr "กลุ่ม"
+msgstr "Kooxo"
 
 #: ckanext/datarequests/templates/datarequests/base.html:8
 #: ckanext/datarequests/templates/datarequests/base.html:11
@@ -239,12 +239,12 @@ msgstr "กลุ่ม"
 #: ckanext/datarequests/templates/organization/read_base.html:6
 #: ckanext/datarequests/templates/user/read_base.html:6
 msgid "Data Requests"
-msgstr "ร้องขอชุดข้อมูล"
+msgstr "Xog codsiyeed"
 
 #: ckanext/datarequests/templates/header.html:9
 #: ckanext/datarequests/templates/organization/read_base.html:7
 msgid "About"
-msgstr "เกี่ยวกับ"
+msgstr "Kusaabsan"
 
 #: ckanext/datarequests/templates/datarequests/base.html:20
 msgid ""
@@ -252,37 +252,40 @@ msgid ""
 "platform yet. If you want some specific data and you are not able to find"
 " it among all the published datasets, you can create a new data request "
 "specifying the data than you want to get."
-msgstr "อนุญาตให้ผู้ใช้ขอข้อมูลที่ไม่ได้เผยแพร่ในแพลตฟอร์ม หากคุณต้องการข้อมูลเฉพาะบางอย่างแต่ไม่สามารถค้นหาได้ในบรรดาชุดข้อมูลที่เผยแพร่ทั้งหมด คุณสามารถสร้างคำขอข้อมูลใหม่ได้"
-
+msgstr ""
+"Codsiyada xogta waxay u oggolaanaysaa dadka isticmaala inay codsadaan xog"
+" aan weli lagu daabicin goobta. Hadii aad dooneyso xog gaar ah aadana ka "
+"heli karin xog bandhigeydyada daabacan, waxaad abuuri kartaa codsi cusub "
+"oo xogta aad rabto inaad hesho"
 
 #: ckanext/datarequests/templates/datarequests/close.html:3
 #: ckanext/datarequests/templates/datarequests/close.html:8
 #: ckanext/datarequests/templates/datarequests/close.html:12
 #: ckanext/datarequests/templates/datarequests/snippets/close_datarequest_form.html:25
 msgid "Close Data Request"
-msgstr "ปิดการร้องขอชุดข้อมูล"
+msgstr "Xidh codsiga xogtan"
 
 #: ckanext/datarequests/templates/datarequests/comment.html:5
 #: ckanext/datarequests/templates/datarequests/show.html:28
 msgid "Comments"
-msgstr "ความคิดเห็น"
+msgstr "Faallooyin"
 
 #: ckanext/datarequests/templates/datarequests/edit.html:3
 #: ckanext/datarequests/templates/datarequests/edit.html:8
 #: ckanext/datarequests/templates/datarequests/edit.html:12
 msgid "Edit Data Request"
-msgstr "แก้ไข ร้องขอชุดข้อมูล"
+msgstr "Kale habee codsiga xogta"
 
 #: ckanext/datarequests/templates/datarequests/index.html:9
 #: ckanext/datarequests/templates/organization/datarequests.html:10
 msgid "Add Data Request"
-msgstr "เพิ่ม ร้องขอชุดข้อมูล"
+msgstr "Ku dar codsi xoggeed"
 
 #: ckanext/datarequests/templates/datarequests/index.html:12
 #: ckanext/datarequests/templates/organization/datarequests.html:13
 #: ckanext/datarequests/templates/user/datarequests.html:9
 msgid "Search Data Requests..."
-msgstr "ค้นหา ร้องขอชุดข้อมูล"
+msgstr "Raadinta xog codsiyeed"
 
 #: ckanext/datarequests/templates/datarequests/new.html:3
 #: ckanext/datarequests/templates/datarequests/new.html:7
@@ -290,7 +293,7 @@ msgstr "ค้นหา ร้องขอชุดข้อมูล"
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_form.html:47
 #: ckanext/datarequests/templates/datarequests/snippets/new_datarequest_form.html:7
 msgid "Create Data Request"
-msgstr "สร้าง ร้องขอชุดข้อมูล"
+msgstr "Abuurida xog codsiyeed"
 
 #: ckanext/datarequests/templates/datarequests/new.html:16
 msgid ""
@@ -298,56 +301,60 @@ msgid ""
 "description for your request. Please, be as clear as you can in order to "
 "ease the task of accomplishing your request. You can also specify an "
 "organization if your data request is closely related with it. "
-msgstr "หากต้องการสร้างคำ ร้องขอชุดข้อมูล ให้กรอกแบบฟอร์มและระบุชื่อและคำอธิบายสำหรับคำขอของคุณ โปรดระบุให้ชัดเจนที่สุดเพื่อที่จะดำเนินการตามคำขอของคุณสำเร็จได้ง่ายขึ้น คุณยังสามารถระบุองค์กร เพื่อระบุวงการค้นหาให้แคบลง"
+msgstr ""
+"Si loo abuuro codsiyada xogta,buuxi foomka oo sheeg tilmaamaha iyo "
+"sharaxaada codsigaaga. Fadlan u cadee sida oogu fudud si howsha aad "
+"codsaneyso u fududaato, waxaad sidoo kale shiigi kartaa magac urur ama "
+"hay’ad u dhow xogta aad raadineyso"
 
 #: ckanext/datarequests/templates/datarequests/show.html:15
 msgid "Manage"
-msgstr "จัดการ"
+msgstr "Maamul"
 
 #: ckanext/datarequests/templates/datarequests/show.html:19
 msgid "Close"
-msgstr "ปิด"
+msgstr "Xirit"
 
 #: ckanext/datarequests/templates/datarequests/show.html:45
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:19
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_item.html:12
 msgid "Closed"
-msgstr "ปิดแล้ว"
+msgstr "La xidh"
 
 #: ckanext/datarequests/templates/datarequests/show.html:50
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_item.html:16
 msgid "Open"
-msgstr "เปิด"
+msgstr "Fur"
 
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:2
 msgid "Additional Info"
-msgstr "ข้อมูลเพิ่มเติม"
+msgstr "Xog dheeraad ah"
 
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:7
 msgid "Creator"
-msgstr "ผู้สร้าง"
+msgstr "Abuure"
 
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:8
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:12
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:29
 msgid "None"
-msgstr "ไม่มี"
+msgstr "Midna"
 
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:15
 msgid "Created"
-msgstr "สร้างเมื่อ"
+msgstr "Abuuray"
 
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:20
 msgid "Not closed yet"
-msgstr "ยังไม่ปิด"
+msgstr "Wali ma xidhna"
 
 #: ckanext/datarequests/templates/datarequests/snippets/close_datarequest_form.html:11
 msgid "Accep. Dataset"
-msgstr "ยอมรับ ชุดข้อมูล"
+msgstr "Xog bandhigeed la aqbalay"
 
 #: ckanext/datarequests/templates/datarequests/snippets/comment_form.html:22
 msgid "Add a new Comment"
-msgstr "เพิ่มความคิดเห็นใหม่"
+msgstr "Ku dar faallo cusub"
 
 #: ckanext/datarequests/templates/datarequests/snippets/comment_form.html:23
 #, python-format
@@ -356,136 +363,141 @@ msgid ""
 "data-target=\"popover\" data-content=\"%(markdown_tooltip)s\" data-"
 "html=\"true\">Markdown formatting</a> here. You can refer datasets by "
 "adding their URL."
-msgstr "คุณสามารถใช้ <a href=\"#markdown\" title=\"Markdown ดูวิธีอย่างรวดเร็ว\" data-target=\"popover\" data-content=\"%(markdown_tooltip)s\" data-html=\"true\">Markdown</a>"
-
+msgstr "Waxaad isticmaali kartaa<a href=\"#markdown\" title=\"Markdown si dhakhso ah u tixraac\" "
+"data-target=\"popover\" data-content=\"%(markdown_tooltip)s\" data-"
+"html=\"true\">Markdown qaabaynta</a> halkan. Waxaad u gudbin kartaa xog-bandhigeed"
+"iyagoo raacinaya URL-yadooda"
 
 #: ckanext/datarequests/templates/datarequests/snippets/comment_form.html:28
 msgid "Cancel"
-msgstr "ยกเลิก"
+msgstr "Ka noqosho"
 
 #: ckanext/datarequests/templates/datarequests/snippets/comment_form.html:29
 msgid "Update Comment"
-msgstr "แก้ไข ความคิดเห็น"
+msgstr "Cusbooneysii faallooyin"
 
 #: ckanext/datarequests/templates/datarequests/snippets/comment_form.html:31
 msgid "Add Comment"
-msgstr "เพิ่ม ความคิดเห็น"
+msgstr "Ku dar faallo"
 
 #: ckanext/datarequests/templates/datarequests/snippets/comment_item.html:18
 msgid "Are you sure you want to delete this comment?"
-msgstr "คุณแน่ใจหรือไม่ที่จะลบ ความคิดเห็น นี้?"
+msgstr "Ma hubtaa oo ma waxaan dooneysaa in aad tirtirto faaladan?"
 
 #: ckanext/datarequests/templates/datarequests/snippets/comment_item.html:29
 msgid "commented"
-msgstr "แสดงความคิดเห็น"
+msgstr "ka faallooday"
 
 #: ckanext/datarequests/templates/datarequests/snippets/comments.html:3
 msgid "Current Discussion"
-msgstr "การสนทนาปัจจุบัน"
+msgstr "Wada hadalka hada"
 
 #: ckanext/datarequests/templates/datarequests/snippets/comments.html:13
 msgid "This data request has not been commented yet"
-msgstr "คำขอข้อมูลนี้ยังไม่ได้แสดงความคิดเห็น"
+msgstr "Xog codsiyeedkani lagama faalloon wali"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_form.html:17
 msgid "eg. Data Request Name"
-msgstr "ตัวอย่าง. ชื่อหัวข้อ คำร้องขอชุดข้อมูล"
+msgstr "Tusaale magaca xog codsiyeedka"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_form.html:21
 msgid "eg. Data Request description"
-msgstr "ตัวอย่าง. รายละเอียด คำร้องขอชุดข้อมูล"
+msgstr "Tusaale faahfaahinta xog codsiyeedka"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_form.html:29
 msgid "No organization"
-msgstr "ไม่มี หน่วยงาน"
+msgstr "Ma jiro urur"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_form.html:43
 msgid "Are you sure you want to delete this data request?"
-msgstr "คุณแน่ใจหรือไม่ที่จะลบ คำร้องขอชุดข้อมูล นี้ ?"
+msgstr "Ma hubtaa oo ma waxaan dooneysaa in aad tirtirto xog codsiyeedkan"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_form.html:44
 msgid "Delete"
-msgstr "ลบ"
+msgstr "Tirtir"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_list.html:1
 msgid "No Data Requests found"
-msgstr "ไม่พบ คำร้องขอชุดข้อมูล"
+msgstr "Wax la helay oo xog codsiyeed ah majiraan"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_list.html:14
 msgid "No Data Requests found with the given criteria"
-msgstr "ไม่พบ คำร้องขอชุดข้อมูล จากการกรองนี้"
+msgstr "Shuruudaha labixiyay laguma helin xog codsiyeed"
 
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_list.html:16
 msgid "How about creating one?"
-msgstr "บอกเกียวกับมาสักอย่าง?"
+msgstr "Sidee loo abuuraa mid?"
 
 #: ckanext/datarequests/templates/datarequests/snippets/edit_datarequest_form.html:4
 msgid "Update Data Request"
-msgstr "แก้ไข คำร้องขอชุดข้อมูล"
+msgstr "Cusbooneysii xog codsiyeed"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:5
 msgid "{0} statistics"
-msgstr "{0} สถิติ"
+msgstr "{0} tirakoob"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:10
 msgid "dataset"
-msgstr "ชุดข้อมูล"
+msgstr "xog bandhigeed"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:10
 msgid "datasets"
-msgstr "ชุดข้อมูล"
+msgstr "xog bandhigeedyo"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:16
 msgid "organization"
-msgstr "หน่วยงาน"
+msgstr "hay’ad"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:16
 msgid "organizations"
-msgstr "หน่วยงาน"
+msgstr "hay’addo"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:22
 msgid "group"
-msgstr "กลุ่ม"
+msgstr "koox"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:22
 msgid "groups"
-msgstr "กลุ่ม"
+msgstr "kooxo"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:28
 msgid "related item"
-msgstr "รายการที่เกี่ยวข้อง"
+msgstr "shey la xiriiro"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:28
 msgid "related items"
-msgstr "รายการที่เกี่ยวข้อง"
+msgstr "waxyaabaha la xiriiro"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:34
 msgid "data request"
-msgstr "ร้องขอชุดข้อมูล"
+msgstr "xog codsiyeed"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:34
 msgid "data requests"
-msgstr "ร้องขอชุดข้อมูล"
+msgstr "xog codsiyeydyo"
 
 #: ckanext/datarequests/templates/organization/read_base.html:5
 #: ckanext/datarequests/templates/user/read_base.html:5
 msgid "Activity Stream"
-msgstr "กิจกรรม"
+msgstr "Socodka hawlaha"
 
 #: ckanext/datarequests/templates/snippets/custom_search_form.html:6
 msgid "{number} data request found for \"{query}\""
 msgid_plural "{number} data requests found for \"{query}\""
-msgstr[0] "{number} รายการ คำร้องขอชุดข้อมูล จาก \"{query}\""
+msgstr[0] "{number} xog codsiyeedka la helay  \"{query}\""
+msgstr[1] "{number} xog codsiyeedyo la helay \"{query}\""
 
 #: ckanext/datarequests/templates/snippets/custom_search_form.html:7
 msgid "No data requests found for \"{query}\""
-msgstr "ไม่พบรายการ คำร้องขอชุดข้อมูล จาก \"{query}\""
+msgstr "Wax xoggag codsiyeed ah lama helin \"{query}\""
 
 #: ckanext/datarequests/templates/snippets/custom_search_form.html:8
 msgid "{number} data request found"
 msgid_plural "{number} data requests found"
-msgstr[0] "{number} รายการ คำร้องขอชุดข้อมูลที่พบ"
+msgstr[0] "{number} xog codsiyeed lahelay"
+msgstr[1] "{number} xoggag codsiyeed la helay"
 
 #: ckanext/datarequests/templates/snippets/custom_search_form.html:9
 msgid "No data requests found"
-msgstr "ไม่พบรายการ คำร้องขอชุดข้อมูล"
+msgstr "Lama helin wax xoggag codsiyeed ah"
+

@@ -2,20 +2,20 @@
 
 # Copyright (c) 2016 CoNWeT Lab., Universidad Politécnica de Madrid
 
-# This file is part of CKAN Data Request Extension.
+# This file is part of CKAN Data Requests Extension.
 
-# CKAN Data Request Extension is free software: you can redistribute it and/or
+# CKAN Data Requests Extension is free software: you can redistribute it and/or
 # modify it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 
-# CKAN Data Request Extension is distributed in the hope that it will be useful,
+# CKAN Data Requests Extension is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU Affero General Public License for more details.
 
 # You should have received a copy of the GNU Affero General Public License
-# along with CKAN Data Request Extension.  If not, see <http://www.gnu.org/licenses/>.
+# along with CKAN Data Requests Extension.  If not, see <http://www.gnu.org/licenses/>.
 
 from nose_parameterized import parameterized
 from selenium import webdriver
@@ -249,11 +249,11 @@ class TestSelenium(unittest.TestCase):
         text = None
 
         if n_datarequests == 0:
-            text = 'No Data Request found'
+            text = 'No data requests found'
         elif n_datarequests == 1:
             text = '1 data request found'
         else:
-            text = '%d Data Request found' % n_datarequests
+            text = '%d data requests found' % n_datarequests
 
         if search:
             text += ' for "%s"' % search
@@ -439,8 +439,8 @@ class TestSelenium(unittest.TestCase):
         # Delete the data request
         self.delete_datarequest(datarequest_id)
 
-        # Check that there are not more Data Request in the system
-        self.assertTrue('No Data Request found with the given criteria.'
+        # Check that there are not more data requests in the system
+        self.assertTrue('No Data Requests found with the given criteria.'
                         in self.driver.find_element_by_css_selector('.primary p.empty').text)
 
         # Check flash message
@@ -576,7 +576,7 @@ class TestSelenium(unittest.TestCase):
         self.check_n_datarequests(10)
         self.check_datarequests_counter(n_datarequests, base_name)
 
-        # Filter by open (there should be 5 Data Request open with the given
+        # Filter by open (there should be 5 data requests open with the given
         # base name)
         self.driver.find_element_by_partial_link_text('Open').click()
         self.check_n_datarequests(5)
