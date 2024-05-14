@@ -3,10 +3,10 @@
 {% block search_title %}
 
   <h2>
-    {% set text_query = ungettext('{number} data request found for "{query}"', '{number} ร้องขอชุดข้อมูล found for "{query}"', count) %}
-    {% set text_query_none = _('No ร้องขอชุดข้อมูล found for "{query}"') %}
-    {% set text_no_query = ungettext('{number} data request found', '{number} ร้องขอชุดข้อมูล found', count) %}
-    {% set text_no_query_none = _('No ร้องขอชุดข้อมูล found') %}
+    {% set text_query = ungettext('{number} data request found for "{query}"', '{number} Data Request found for "{query}"', count) %}
+    {% set text_query_none = _('No Data Request found for "{query}"') %}
+    {% set text_no_query = ungettext('{number} data request found', '{number} Data Request found', count) %}
+    {% set text_no_query_none = _('No Data Request found') %}
 
     {% if query %}
       {%- if count -%}

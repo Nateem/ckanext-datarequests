@@ -1,4 +1,4 @@
-{% set title= _('No ร้องขอชุดข้อมูล found') if datarequest_count == 0 else '%s datarequest found' % datarequest_count %}
+{% set title= _('No Data Request found') if datarequest_count == 0 else '%s datarequest found' % datarequest_count %}
 
 <!--<h2>{{ title }}</h2>!-->
 
@@ -11,7 +11,7 @@
     </ul>
   {% else %}
     <p class="empty">
-      {{ _('No ร้องขอชุดข้อมูล found with the given criteria') }}.
+      {{ _('No Data Request found with the given criteria') }}.
       {% if h.check_access('create_datarequest') %}
         {% link_for _('How about creating one?'), controller='ckanext.datarequests.controllers.ui_controller:DataRequestsUI', action='new' %}</a>
       {% endif %}

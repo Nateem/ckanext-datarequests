@@ -1,20 +1,20 @@
 /*
  * (C) Copyright 2015 CoNWeT Lab., Universidad Politécnica de Madrid
  *
- * This file is part of CKAN ร้องขอชุดข้อมูล Extension.
+ * This file is part of CKAN Data Request Extension.
  *
- * CKAN ร้องขอชุดข้อมูล Extension is free software: you can redistribute it and/or
+ * CKAN Data Request Extension is free software: you can redistribute it and/or
  * modify it under the terms of the GNU Affero General Public License as
  * published by the Free Software Foundation, either version 3 of the
  * License, or (at your option) any later version.
  *
- * CKAN ร้องขอชุดข้อมูล Extension is distributed in the hope that it will be useful, but
+ * CKAN Data Request Extension is distributed in the hope that it will be useful, but
  * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
  * or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public
  * License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with CKAN ร้องขอชุดข้อมูล Extension. If not, see
+ * along with CKAN Data Request Extension. If not, see
  * <http://www.gnu.org/licenses/>.
  *
  */
