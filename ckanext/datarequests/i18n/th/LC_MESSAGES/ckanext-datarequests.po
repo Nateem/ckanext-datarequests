@@ -227,7 +227,7 @@ msgstr "ชุดข้อมูล"
 
 #: ckanext/datarequests/templates/header.html:7
 msgid "Groups"
-msgstr "กลุ่ม"
+msgstr "หมวดหมู่"
 
 #: ckanext/datarequests/templates/datarequests/base.html:8
 #: ckanext/datarequests/templates/datarequests/base.html:11
@@ -445,11 +445,11 @@ msgstr "หน่วยงาน"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:22
 msgid "group"
-msgstr "กลุ่ม"
+msgstr "หมวดหมู่"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:22
 msgid "groups"
-msgstr "กลุ่ม"
+msgstr "หมวดหมู่"
 
 #: ckanext/datarequests/templates/home/snippets/stats.html:28
 msgid "related item"
